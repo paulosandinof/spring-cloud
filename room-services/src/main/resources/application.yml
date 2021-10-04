@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: roomservices
+  config:
+    import: configserver:http://localhost:9000
+  jpa:
+    hibernate:
+      ddl-auto: none
